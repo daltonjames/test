@@ -8,7 +8,7 @@
     </value>
     <statement name="DO">
       <block type="multimedia_playwav" id="3">
-        <field name="WAV">pacman_w.wav</field>
+        <field name="WAV">car.wav</field>
         <next>
           <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
