@@ -1,1 +1,24 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_whileUntil" id="23" inline="false" x="31" y="134">
+    <field name="MODE">WHILE</field>
+    <value name="NUMBER">
+      <block type="math_number" id="31">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="multimedia_playwav" id="16">
+        <field name="WAV">pacman_w.wav</field>
+        <next>
+          <block type="robot_delay" id="33" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="34">
+                <field name="NUM">500</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
